@@ -1,0 +1,22 @@
+.content-block-toggle{
+	width: 100%;
+	text-transform: capitalize;
+}
+
+table.acf_input tbody tr td.label{
+	width: 120px;
+}
+
+div.repeater tbody tr td.label{
+	width: 60px;
+}
+
+.ui-sortable{
+	position: relative;
+}
+
+.ui-sortable:before,
+.ui-sortable:after{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
